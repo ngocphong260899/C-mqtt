@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoT_Mqtt_Connect", "IoT_Mqtt_Connect\IoT_Mqtt_Connect.csproj", "{426C6A6D-84A8-461D-93BD-F2F6FE4417ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{426C6A6D-84A8-461D-93BD-F2F6FE4417ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426C6A6D-84A8-461D-93BD-F2F6FE4417ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426C6A6D-84A8-461D-93BD-F2F6FE4417ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426C6A6D-84A8-461D-93BD-F2F6FE4417ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {265D05B7-8A40-43F5-95D9-B6A7C8CBEDE4}
+	EndGlobalSection
+EndGlobal

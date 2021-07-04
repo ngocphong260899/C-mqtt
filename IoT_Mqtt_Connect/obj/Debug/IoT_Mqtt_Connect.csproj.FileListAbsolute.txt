@@ -1,0 +1,15 @@
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\IoT_Mqtt_Connect.exe.config
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\IoT_Mqtt_Connect.exe
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\IoT_Mqtt_Connect.pdb
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\M2Mqtt.Net.dll
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\Newtonsoft.Json.dll
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\M2Mqtt.Net.pdb
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\bin\Debug\Newtonsoft.Json.xml
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.csprojAssemblyReference.cache
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.Form1.resources
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.Properties.Resources.resources
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.csproj.GenerateResource.cache
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.csproj.CoreCompileInputs.cache
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.csproj.CopyComplete
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.exe
+E:\Code_App\IoT_Mqtt_Connect\IoT_Mqtt_Connect\obj\Debug\IoT_Mqtt_Connect.pdb
