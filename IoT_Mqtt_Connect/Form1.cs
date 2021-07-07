@@ -19,7 +19,7 @@ namespace IoT_Mqtt_Connect
     {
          MqttClient client;
          string data_recv;
-       
+        render_btn_state render_state = new render_btn_state();
 
         public Form1()
         {
@@ -59,9 +59,29 @@ namespace IoT_Mqtt_Connect
 
                 string stt = str_json.status;
                 string pos = str_json.pos;
+                int position = Int32.Parse(pos);
 
+                switch(position)
+                {
+                    case 1:
+                        {
+                            render_state.render_state(button2, stt);
+                        }
+                        break;
 
-                button_get_state(button2, stt);
+                    case 2:
+                        {
+                            render_state.render_state(button3, stt);
+                        }
+                        break;
+                    case 3:
+                        {
+                            render_state.render_state(button4, stt);
+                        }
+                        break;
+                }
+
+             
 
 
 
@@ -77,10 +97,7 @@ namespace IoT_Mqtt_Connect
 
 
         }
-        public void button_get_state( Button btn, string stt)
-        {
-            btn.Invoke((MethodInvoker)(() => btn.Text = stt));
-        }
+       
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -96,6 +113,68 @@ namespace IoT_Mqtt_Connect
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (button2.Text == "on")
+                {
+                    string value = "{\"status\":0}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+                else if (button2.Text == "off")
+                {
+                    string value = "{\"status\":1}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Phonghg56: Error data send");
+            }
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (button3.Text == "on")
+                {
+                    string value = "{\"status\":0}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+                else if (button3.Text == "off")
+                {
+                    string value = "{\"status\":1}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Phonghg56: Error data send");
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (button4.Text == "on")
+                {
+                    string value = "{\"status\":0}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+                else if (button4.Text == "off")
+                {
+                    string value = "{\"status\":1}";
+                    client.Publish("ngocphong260899", Encoding.UTF8.GetBytes(value), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Phonghg56: Error data send");
+            }
+        }
     }
 }

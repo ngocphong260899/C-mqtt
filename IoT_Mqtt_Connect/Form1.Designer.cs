@@ -38,9 +38,9 @@ namespace IoT_Mqtt_Connect
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(260, 12);
+            this.button1.Location = new System.Drawing.Point(12, 119);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(242, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Push";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,30 +56,33 @@ namespace IoT_Mqtt_Connect
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(216, 214);
+            this.button2.Location = new System.Drawing.Point(12, 205);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 65);
             this.button2.TabIndex = 4;
             this.button2.Text = "ON";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(363, 214);
+            this.button3.Location = new System.Drawing.Point(93, 205);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 65);
             this.button3.TabIndex = 5;
             this.button3.Text = "ON";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(510, 214);
+            this.button4.Location = new System.Drawing.Point(174, 205);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 65);
             this.button4.TabIndex = 6;
             this.button4.Text = "ON";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
